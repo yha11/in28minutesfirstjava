@@ -4,6 +4,10 @@ public class MotorBike {
 	// state(상태)
 	private int speed; // member variable
 
+	MotorBike(int speed) {
+		this.speed = speed;
+	}
+
 	// behaviour
 	public int getSpeed() {
 		return speed;
