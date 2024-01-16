@@ -4,6 +4,10 @@ public class MotorBike {
 	// state(상태)
 	private int speed; // member variable
 
+	MotorBike() {
+		this(5); // MoterBike(int speed) 생성자를 호출함.
+	}
+
 	MotorBike(int speed) {
 		this.speed = speed;
 	}
